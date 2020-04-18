@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.customview.CustomView
+        android:layout_width="match_parent"
+        android:id="@+id/cusview"
+        android:layout_height="150dp"></com.example.customview.CustomView>
+
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="150dp"
+        android:layout_height="148dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginRight="253dp"
+        android:background="@drawable/custom_button"
+        android:text="Custom Button"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:layout_marginLeft="251dp"
+
+        >
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Option 1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:id="@+id/r2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 3"
+            android:id="@+id/r3"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginLeft="202dp"
+        android:layout_marginBottom="324dp"
+        android:text="Your option : "
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginBottom="259dp"
+        android:text="apply" />
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:layout_width="52dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="332dp"
+        android:layout_marginRight="332dp"
+        android:layout_marginBottom="219dp"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="270dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="225dp"
+        android:text="Check"
+        android:textSize="21dp" />
+
+    <Button
+        android:id="@+id/bb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="291dp"
+        android:layout_marginBottom="157dp"
+        android:text="Done" />
+
+
+</RelativeLayout>
